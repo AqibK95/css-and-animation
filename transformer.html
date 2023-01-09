@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container, .inner {
+            width: 150px;
+            height: 150px;
+            border: 2px solid rebeccapurple;
+            
+        }
+
+        .container{
+            background: lightblue;
+        }
+
+        .inner{
+            background-color: chartreuse;
+            /* transform: scale(75%); */
+            /* transform: rotate(30deg); */
+             transform: translate(50px, 50px) scale(0.6) rotate(40deg);
+            /*  translate y (50px) */
+        }
+    </style>
+</head>
+<body>
+    <h1>Transfromer I am comming</h1>
+
+    <!-- .box.container*3>.inner{box$} -->
+    <div class="box container">
+        <div class="inner">box1</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box2</div>
+    </div>
+    <div class="box container">
+        <div class="inner">box3</div>
+    </div>
+</body>
+</html>
